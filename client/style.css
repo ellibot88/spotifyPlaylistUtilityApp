@@ -41,6 +41,7 @@ iframe {
 /* Add a color to the active/current link */
 .topnav a.active {
   color: white;
+  padding-left: 60px;
 }
 
 p {
