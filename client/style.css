@@ -8,4 +8,48 @@ body {
 
 iframe {
   justify-content: center;
+  align-items: flex-start;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #555555;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 75px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #999999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 16px;
+  padding-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  padding-left: 8px;
+  padding-right: 5px;
+  color: #222222;
+  text-align: center;
 }
