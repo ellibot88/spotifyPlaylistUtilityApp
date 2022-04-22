@@ -79,11 +79,11 @@ p {
 }
 
 #songURL{
-  width: 575px;
+  width: 400px;
   height: 35px;
   left: 747px;
   top: 184px;
-  margin-left: 725px;
+  /* margin-left: 725px; */
 
 background: #FFFFFF;
 border-radius: 39px;
@@ -98,10 +98,10 @@ letter-spacing: 0.07em;
 
 }
 
-#songButton{
+#songButton, button{
 margin-left: 20px;
   width: 137px;
-height: 41px;
+height: 42px;
 left: 1286px;
 top: 184px;
 
@@ -115,4 +115,9 @@ text-align: center;
 border-radius: 39px;
 color: #000000;
 
+}
+#authorize-button{
+  margin-left: 740px;
+  margin-right: 20px;
+  background-color: #1ed760
 }
