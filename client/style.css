@@ -93,8 +93,10 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 align-items: center;
-text-align: left;
+text-align: start;
 letter-spacing: 0.07em;
+text-indent: 17px;
+color:rgb(75, 75, 75)
 
 }
 
