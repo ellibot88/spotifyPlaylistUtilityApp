@@ -20,10 +20,9 @@ body {
   display: flex;
 }
 
-.flexbox2{
+.flexbox2 {
   display: flex;
   align-items: center;
-
 }
 
 iframe {
@@ -74,17 +73,18 @@ p {
   color: #222222;
   text-align: center;
 }
-#plus{
+#plus {
   font-weight: bold;
 }
 
-#songURL{
+#songURL {
   width: 400px;
   height: 35px;
   left: 747px;
   top: 184px;
   /* margin-left: 725px; */
 
+<<<<<<< HEAD
 background: #FFFFFF;
 border-radius: 39px;
 font-family:Arial, Helvetica, sans-serif;
@@ -98,28 +98,42 @@ letter-spacing: 0.07em;
 text-indent: 17px;
 color:rgb(75, 75, 75)
 
+=======
+  background: #ffffff;
+  border-radius: 39px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.07em;
+  color: rgb(80, 80, 80);
+>>>>>>> 261d6dd978e6796c066c5611b805579926e72522
 }
 
-#songButton, button{
-margin-left: 20px;
+#songButton,
+button {
+  margin-left: 20px;
   width: 137px;
-height: 42px;
-left: 1286px;
-top: 184px;
+  height: 42px;
+  left: 1286px;
+  top: 184px;
+  cursor: pointer;
 
-font-family: Helvetica;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-align-items: center;
-text-align: center;
-border-radius: 39px;
-color: #000000;
-
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  border-radius: 39px;
+  color: #000000;
 }
-#authorize-button{
-  margin-left: 740px;
+#authorize-button {
+  margin-left: 20%;
   margin-right: 20px;
-  background-color: #1ed760
+  background-color: #1ed760;
 }
